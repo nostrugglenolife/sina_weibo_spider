@@ -9,7 +9,7 @@ import requests
 或者你也可以把时间间隔调大点。
 """
 weibo_count = [
-    {'user': '18618263756', 'pwd': 'wudu123!!'},
+    {'user': 'username', 'pwd': 'password'},
 ]
 
 
