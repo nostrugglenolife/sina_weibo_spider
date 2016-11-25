@@ -18,8 +18,8 @@ def getCookies(weibo):
     cookies = []
     loginURL = r'https://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.4.15)'
     for elem in weibo:
-        account = elem['no']
-        password = elem['psw']
+        account = elem['user']
+        password = elem['pwd']
         username = base64.b64encode(account.encode('utf-8')).decode('utf-8')
         postData = {
             "entry": "sso",
